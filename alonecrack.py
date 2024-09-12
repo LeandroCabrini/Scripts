@@ -2,7 +2,7 @@ import crypt,sys
 
 #Verifica se foi passado wordlist como argumento
 if(len(sys.argv) < 2):
-        print("Modo de uso: python cracker.py /caminho/para/wordlist")
+        print("Modo de uso: python alonecrack.py /caminho/para/wordlist")
         sys.exit(1)
 
 #Obtém caminho do arquivo wordlist
